@@ -269,9 +269,12 @@ public class Form1 : Form
             Directory.CreateDirectory(tmpDir);
 
             string dotPath = Path.Combine(tmpDir, "cola.dot");
-            string pngPath = Path.Combine(tmpDir, "cola.png");
+            // Usar nombre único evita problemas de permisos/bloqueos al re-escribir.
+            string pngPath = Path.Combine(tmpDir, $"cola_{Guid.NewGuid():N}.png");
 
-            File.WriteAllText(dotPath, dot, Encoding.UTF8);
+            // Graphviz puede fallar si el .dot inicia con BOM (aparece como "ï»¿").
+            // Usamos UTF-8 sin BOM para evitar ese problema.
+            File.WriteAllText(dotPath, dot, new UTF8Encoding(encoderShouldEmitUTF8Identifier: false));
 
             var psi = new ProcessStartInfo
             {
@@ -310,9 +313,28 @@ public class Form1 : Form
                 throw new InvalidOperationException("Graphviz 'dot' no generó la imagen.\n" + extra);
             }
 
-            // Copiamos la imagen para evitar bloqueos del archivo.
-            using var img = Image.FromFile(pngPath);
-            picGraphviz.Image = (Image)img.Clone();
+            // Liberamos la imagen anterior del PictureBox (evita bloqueos).
+            if (picGraphviz.Image != null)
+            {
+                var old = picGraphviz.Image;
+                picGraphviz.Image = null;
+                old.Dispose();
+            }
+
+            // Copiamos la imagen para evitar bloqueos del archivo, y luego eliminamos el PNG temporal.
+            using (var img = Image.FromFile(pngPath))
+            {
+                picGraphviz.Image = (Image)img.Clone();
+            }
+
+            try
+            {
+                File.Delete(pngPath);
+            }
+            catch
+            {
+                // Si no se puede borrar, al menos ya se cargó la imagen.
+            }
         }
         catch (Exception ex)
         {

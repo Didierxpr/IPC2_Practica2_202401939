@@ -7,6 +7,7 @@ C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Prac
 C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Practica2_TurnosMedicos.AssemblyInfoInputs.cache
 C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Practica2_TurnosMedicos.AssemblyInfo.cs
 C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Practica2_TurnosMedicos.csproj.CoreCompileInputs.cache
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Practica2_TurnosMedicos.sourcelink.json
 C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Practica2_TurnosMedicos.dll
 C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\refint\Practica2_TurnosMedicos.dll
 C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Practica2_TurnosMedicos.pdb
