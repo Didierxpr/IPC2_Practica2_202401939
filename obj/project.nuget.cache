@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "rreGO1l9CG8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Didiere\\Downloads\\Practica2_TurnosMedicos\\Practica2_TurnosMedicos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Didiere\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\Didiere\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\Didiere\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\Didiere\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.25\\microsoft.netcore.app.host.win-x64.8.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

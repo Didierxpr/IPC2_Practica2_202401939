@@ -1,0 +1,14 @@
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\bin\Debug\net8.0-windows\Practica2_TurnosMedicos.exe
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\bin\Debug\net8.0-windows\Practica2_TurnosMedicos.deps.json
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\bin\Debug\net8.0-windows\Practica2_TurnosMedicos.runtimeconfig.json
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\bin\Debug\net8.0-windows\Practica2_TurnosMedicos.dll
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\bin\Debug\net8.0-windows\Practica2_TurnosMedicos.pdb
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Practica2_TurnosMedicos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Practica2_TurnosMedicos.AssemblyInfoInputs.cache
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Practica2_TurnosMedicos.AssemblyInfo.cs
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Practica2_TurnosMedicos.csproj.CoreCompileInputs.cache
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Practica2_TurnosMedicos.dll
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\refint\Practica2_TurnosMedicos.dll
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Practica2_TurnosMedicos.pdb
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\Practica2_TurnosMedicos.genruntimeconfig.cache
+C:\Users\Didiere\Downloads\Practica2_TurnosMedicos\obj\Debug\net8.0-windows\ref\Practica2_TurnosMedicos.dll
