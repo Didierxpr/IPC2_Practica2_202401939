@@ -31,8 +31,4 @@
 3. Registrar turnos con los botones.
 4. Presionar “Atender Siguiente” para desencolar.
 
-## Si Graphviz no genera la imagen
-
-- El programa igual muestra el contenido `.dot` en el cuadro de texto (`DOT`).
-- Para que se vea el gráfico, instala Graphviz y asegúrate que `dot` se ejecute desde `cmd`/PowerShell.
 
